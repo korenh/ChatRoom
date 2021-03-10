@@ -1,0 +1,126 @@
+:root {
+    --background: #111;
+    --input : #222;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    text-align: center;
+    background: var(--background);
+    font-weight: 700;
+    color: white;
+}
+
+.sign-main{
+    width: 300px;
+    margin: 20vh auto;
+}
+
+.sign-main input{
+    color: white;
+    width: 300px;    
+    border : none;
+    outline: none;
+    background: var(--input);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.sign-main button{
+    background: rgb(253, 253, 253);;
+    margin: 1em ;
+    width: 322px;    
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1em;
+    border: none;
+    outline: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: var(--input);
+    border-radius: 10px;
+}
+
+.navigation p{
+    margin: 0 1em;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.chat-content{
+    height: 85vh;
+}
+
+.send-main{
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+}
+
+.send-main input{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background: var(--input);
+    color: white;
+    width: 75%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+    
+.send-main button{
+    width: 10%;
+    cursor: pointer;
+    border: none;
+    background: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+
+}
+
+.right-msg{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 10% ;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.right-msg div{
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: none;
+}
+
+.left-msg{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 10% ;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.left-msg div{
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background: var(--input);
+}
+
+.date-msg{
+    margin-left: 5px;
+    font-size: 10px;
+    float: right;
+}
